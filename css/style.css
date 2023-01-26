@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  border: var(--border);
+}
+nav {
+  display: flex;
+  width: 100%;
+  height: 10%;
+  box-shadow: 0 10px 10px -5px;
+  border: var(--border);
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+  border: var(--border);
+}
+.l-img {
+  width: 187.04px;
+  height: 41.92px;
+}
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  width: 40%;
+  height: 100%;
+  border: var(--border);
+}
+.list > a {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+  text-decoration: none;
+  color: rgba(37, 37, 37, 0.8);
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 30%;
+  height: 100%;
+  border: var(--border);
+}
+.navbar > a {
+  text-decoration: none;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #252525;
+}
+.nav-btn {
+  width: 130px;
+  height: 35px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  color: #ff312c;
+}
+.navbar-img {
+  display: none;
+}
+.hero {
+  width: 100%;
+  height: 90%;
+  background: url(/assets/Rectangle\ 10354.png);
+  border: var(--border);
+}
+.hero-text {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  margin: 50px;
+  border: var(--border);
+}
+.hero-text > h1 {
+  width: 754px;
+  height: 40px;
+  margin-bottom: 20px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  color: #ffffff;
+}
+.hero-text > p {
+  width: 604px;
+  height: 16px;
+  opacity: 0.8;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  color: #ffffff;
+}
+.hero-img {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  margin-bottom: 45px;
+  border: var(--border);
+}
+.h-input {
+  width: 400px;
+  height: 45px;
+  background: #ffffff;
+  border-radius: 4px;
+  padding: 0 15px;
+}
+.ht-input {
+  width: 300px;
+  height: 45px;
+  padding: 0 15px;
+  background: #ffffff;
+  border-radius: 4px;
+}
+.btn {
+  width: 200px;
+  height: 45px;
+  color: white;
+  background: #ff312c;
+  border-radius: 4px;
+}
+.hero-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  border: var(--border);
+}
+.hero-cart > p {
+  color: white;
+}
+.selected {
+  display: flex;
+  width: 1000px;
+  height: 100px;
+  margin: 100px auto;
+  background: #ffffff;
+  box-shadow: 0px 17px 80px rgba(0, 0, 0, 0.1),
+    0px 2.12866px 10.0172px rgba(0, 0, 0, 0.025);
+  border-radius: 18px;
+  border: var(--border);
+}
+.selected-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 30px auto;
+  border-radius: 18px;
+  border: var(--border);
+}
+.selected-item > p {
+  height: 40px;
+  width: 150px;
+  text-align: center;
+  padding: 10px;
+  border: var(--border);
+}
+
+/*  Header end  */
+
+.section {
+  width: 1200px;
+  height: 700px;
+  margin: 80px auto;
+  border: var(--border);
+}
+
+.section-container {
+  width: 100%;
+  height: 100%;
+  border: var(--border);
+}
+/* .section-items{
+    width: 50%;
+    height: 180px;
+    border: var(--border);
+} */
+.section-item {
+  display: flex;
+  width: 50%;
+  height: 180px;
+  /* flex-direction: column; */
+  border: var(--border);
+}
+.section-item > img {
+  margin: 50px 10px;
+  border: var(--border);
+}
+.sec-title {
+  display: flex;
+  /* flex-wrap: wrap;   */
+  width: 40%;
+  gap: 10px;
+  height: 180px;
+  padding: 30px 10px;
+  flex-direction: column;
+  border: var(--border);
+}
+.sec-item {
+  width: 150px;
+  height: 100px;
+  /* padding: 30px 10px; */
+  margin-top: 10px;
+  border: var(--border);
+}
+.section-item > img {
+  width: 100px;
+  height: 100px;
+}
+
+@media screen and (max-width: 322px) {
+  header {
+    width: 100%;
+    height: 700px;
+  }
+
+  .logo {
+    width: 70%;
+  }
+  .list {
+    display: none;
+  }
+  .navbar {
+    display: none;
+  }
+  .navbar-img {
+    display: block;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .hero-text > h1 {
+    width: 280px;
+    font-size: 20px;
+  }
+  .hero-text > p {
+    width: 190px;
+    height: 50px;
+    border: var(--border);
+    font-size: 14px;
+  }
+
+  .hero-img {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .navbar-img > img:active {
+    transform: scale(0.9);
+  }
+
+  .hero-img > a {
+    transition: 1s;
+  }
+  .hero-img > a:hover {
+    transform: scale(1.05);
+    transition: 1s;
+    /* background-color: green; */
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+      rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+      rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+    /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
+  }
+  .h-input {
+    width: 170px;
+  }
+  .ht-input {
+    width: 120px;
+  }
+  .btn {
+    width: 295px;
+  }
+  .hero-cart {
+    display: flex;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 100%;
+  }
+  .hero-cart > p {
+    text-align: center;
+    width: 250px;
+    height: 20px;
+    border: var(--border);
+  }
+  .selected {
+    /* display: flex; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 380px;
+    /* border: 1px solid blue; */
+    /* margin: 0 auto; */
+    border: var(--border);
+  }
+
+  .selected-item {
+    margin: 0 auto;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border: var(--border);
+  }
+  .selected-item > p {
+    width: 250px;
+
+    transition: 1s;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+      rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+      rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+  .selected-item > p:hover {
+    transform: scale(1);
+    transition: 1s;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; */
+  }
+}
